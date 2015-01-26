@@ -1,34 +1,27 @@
-one-page-app
+单页的应用程序
 ============
 
-A one page app boilerplate for Web or mobile using HTML5, Twitter Bootstrap, jQuery and Javascript on Node.js
+使用HTML5，微博引导，jQuery和JavaScript的对Node.js的一页纸的应用样板用于Web或移动
 
-I found a lot of great designs for single page apps, but none provided the backend functionality. This project is both,
-a single page responsive UI/UX along with the backend functionality -- ready to deploy on node.js
+我发现了很多用于单页的应用程序伟大的设计，但没有提供后端功能。该项目是双方，
+单页响应UI/ UX以及后端的功能 - 可以部署在Node.js的
 
 
-Features
+产品特点
 ================
-    - Vertical and/or horizontal scrolling page sections
-    - Social media integration
-    - Responsive layouts (Web and mobile) and multiple themes
-    - Lightweight data store enables persistence
-    - Modular functionality supports contact forms, email, user/login management
-    - Easy-to-use single admin (dashboard) page to manage the entire app and content
+     - 垂直和/或水平滚动页面栏目
+     - 社会化媒体整合
+     - 响应布局（Web和移动）和多主题
+     - 轻量级数据存储能够持久
+     - 模块化功能支持联系方式，电子邮件，用户/登录管理
+     - 易于使用的单一管理（仪表盘）页来管理整个应用程序和内容
     
-Twitter Bootstrap, HTML5 UI
-================
-The responsive design of this single-page app is via Twitter Bootstrap. Bootstrap has been widely adopted for use in Web and mobile apps so
-it's designed behave and look great in any desktop, smartphone or tablet browser. 
+Twitter的引导，HTML5 UI
+这个单页的应用程序的响应式设计是通过Twitter引导。引导已被广泛采用于网络和移动应用程序，所以它的设计的行为，并在任何台式机，智能手机或平板电脑的浏览器看起来很有用处。
 
+Node.js的，快递
+在后端的Node.js6.x中与快递2.X的应用程序框架和路由。意见正在使用EJS模板。
 
-Node.JS, Express
-================
-On the backend is Node.JS 6.x with Express 2.x for the app framework and routing. Views are templated using EJS.
-
-
-Persistence
-================
-Node-Dirty is used for lightweight data persistence. This file-based database is ideal for apps with < 1 million records, and there is no need to adapt and
-connect remote data stores.
+坚持
+节点脏用于轻量级的数据持久性。此基于文件的数据库是非常适合与<1百万个记录的应用程序，并且也没有必要调整和连接远程数据存储。
 
